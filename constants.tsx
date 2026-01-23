@@ -21,11 +21,11 @@ export const RESULTS_GALLERY = [
   "https://i.imgur.com/JzEkXU7.png",
   "https://i.imgur.com/xnKXOPf.png",
   "https://i.imgur.com/3pqplNk.png",
-  "https://i.imgur.com/7pqplNk.png", 
   "https://i.imgur.com/OVlV1ei.png",
   "https://i.imgur.com/XkvjJ0h.png",
   "https://i.imgur.com/aM5adKC.png",
   "https://i.imgur.com/iTkHvKz.png"
+  // Adicione novos links de resultados abaixo seguindo o padrão
 ];
 
 export const BASTIDORES_GALLERY = [
@@ -34,6 +34,7 @@ export const BASTIDORES_GALLERY = [
   "https://i.imgur.com/qXm9vfh.png",
   "https://i.imgur.com/MEeTmUi.png",
   "https://i.imgur.com/DYasqED.png"
+  // Adicione novos links de bastidores abaixo
 ];
 
 export const FEEDBACK_GALLERY = [
@@ -44,6 +45,7 @@ export const FEEDBACK_GALLERY = [
   "https://i.imgur.com/d1TxJgJ.png",
   "https://i.imgur.com/L5SdNV5.png",
   "https://i.imgur.com/3KSANl1.png"
+  // Adicione novos links de comentários abaixo
 ];
 
 export const DIFFERENTIATORS = [
