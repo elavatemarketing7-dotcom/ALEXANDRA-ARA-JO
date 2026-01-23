@@ -1,0 +1,7 @@
+{
+  "name": "Dra. Alexandra Araújo - Estética de Luxo",
+  "description": "Uma landing page premium, mobile-first para a Biomédica Esteta Dra. Alexandra Araújo, focada em conversão e autoridade pessoal.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
