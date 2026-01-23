@@ -1,11 +1,11 @@
 
-import React, { useState, useEffect } from 'react';
-import { AppState, QuizAnswers } from './types';
-import MainSite from './components/MainSite';
-import QuizOverlay from './components/QuizOverlay';
-import ResultPage from './components/ResultPage';
-import InitialChoice from './components/InitialChoice';
-import AnalyzingScreen from './components/AnalyzingScreen';
+import React, { useState } from 'react';
+import { AppState, QuizAnswers } from './types.ts';
+import MainSite from './components/MainSite.tsx';
+import QuizOverlay from './components/QuizOverlay.tsx';
+import ResultPage from './components/ResultPage.tsx';
+import InitialChoice from './components/InitialChoice.tsx';
+import AnalyzingScreen from './components/AnalyzingScreen.tsx';
 
 const App: React.FC = () => {
   const [currentStep, setCurrentStep] = useState<AppState>(AppState.INITIAL_CHOICE);
@@ -17,7 +17,6 @@ const App: React.FC = () => {
   const handleQuizComplete = (finalAnswers: QuizAnswers) => {
     setAnswers(finalAnswers);
     setCurrentStep(AppState.ANALYZING);
-    // Simulate processing
     setTimeout(() => {
       setCurrentStep(AppState.RESULT);
     }, 3000);
